@@ -1,3 +1,12 @@
+### Run a build
+
+1. `yarn global add serve`
+2. `yarn build`
+3. `serve -s build`
+4. go to `http://localhost:5000`
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
