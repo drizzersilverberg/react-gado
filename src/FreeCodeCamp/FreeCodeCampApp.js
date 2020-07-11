@@ -4,6 +4,9 @@ import FCCMainContent from './components/FCCMainContent'
 import FCCFooter from './components/FCCFooter'
 import Greet from './components/Greet'
 import './FreeCodeCampApp.css'
+import FCCTodoApp from './components/FCCTodoApp'
+import FCCContactApp from './FCCContactApp'
+import FCCJokeApp from './FCCJokeApp'
 
 export default class FreeCodeCampApp extends Component {
     render() {
@@ -12,6 +15,9 @@ export default class FreeCodeCampApp extends Component {
                 <FCCHeader />
                 <Greet />
                 <FCCMainContent />
+                <FCCTodoApp />
+                <FCCContactApp />
+                <FCCJokeApp />
                 <FCCFooter />
             </div>
         )
