@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header() {
+function FCCHeader() {
     return (
         <header>
             <h1>This is header</h1>
@@ -14,4 +14,4 @@ function Header() {
     )
 }
 
-export default Header
+export default FCCHeader

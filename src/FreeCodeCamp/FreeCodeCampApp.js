@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Header from './components/Header'
-import MainContent from './components/MainContent'
-import Footer from './components/Footer'
+import FCCHeader from './components/FCCHeader'
+import FCCMainContent from './components/FCCMainContent'
+import FCCFooter from './components/FCCFooter'
 import Greet from './components/Greet'
 import './FreeCodeCampApp.css'
 
@@ -9,10 +9,10 @@ export default class FreeCodeCampApp extends Component {
     render() {
         return (
             <div id="freecodecamp-app">
-                <Header />
+                <FCCHeader />
                 <Greet />
-                <MainContent />
-                <Footer />
+                <FCCMainContent />
+                <FCCFooter />
             </div>
         )
     }

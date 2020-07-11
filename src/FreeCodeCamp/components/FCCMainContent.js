@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MainContent(){
+function FCCMainContent(){
     return (
         <main>
             This is maint content
@@ -8,4 +8,4 @@ function MainContent(){
     )
 }
 
-export default MainContent
+export default FCCMainContent

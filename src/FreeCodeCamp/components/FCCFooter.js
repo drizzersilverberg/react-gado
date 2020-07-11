@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer(){
+function FCCFooter(){
     return (
         <footer>
             This is a footer
@@ -8,4 +8,4 @@ function Footer(){
     )
 }
 
-export default Footer
+export default FCCFooter
