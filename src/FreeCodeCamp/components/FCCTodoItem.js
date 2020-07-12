@@ -1,10 +1,14 @@
 import React from 'react'
 
-export default function FCCTodoItem() {
+export default function FCCTodoItem(props) {
     return (
         <div>
-            <input type="checkbox"/>
-            <p>placeholder text here</p>
+            <input 
+                type="checkbox" 
+                checked={props.item.completed}
+                onChange={() => props.handleChange(props.item.id)}
+            />
+            <p>{props.item.text}</p>
         </div>
     )
 }
