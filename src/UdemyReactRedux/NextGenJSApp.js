@@ -35,6 +35,7 @@ export default class NextGenJSApp extends Component {
 
         // Destructuring
         const [a, b] = ['Pegasus', 'Millenium Eye']
+        console.log(a, b)
 
         return (
             <div>
