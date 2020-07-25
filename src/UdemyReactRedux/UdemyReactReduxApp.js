@@ -2,6 +2,7 @@ import React from 'react'
 import NextGenJSApp from './NextGenJSApp';
 import Person from './Person/Person';
 import ClassBasedApp from './ClassBasedApp';
+import ClassBasedHookApp from './ClassBasedHookApp';
 
 export default function UdemyReactReduxApp(props) {
 
@@ -28,6 +29,8 @@ export default function UdemyReactReduxApp(props) {
             </div>
 
             <ClassBasedApp />
+
+            <ClassBasedHookApp />
         </div>
     )
 }
